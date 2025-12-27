@@ -40,7 +40,7 @@ const machinery = [
 
 export function Machinery() {
     return (
-        <section id="machinery" className="py-24 md:py-32 bg-[#020617] border-t border-white/5">
+        <section id="machinery" className="py-12 md:py-20 bg-[#020617] border-t border-white/5">
             <div className="container-custom">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
 

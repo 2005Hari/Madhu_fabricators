@@ -27,7 +27,7 @@ const tests = ["DFT Meter Analysis", "Coating Thickness Gauge", "Cross Hatch Tes
 
 export function PowderCoating() {
     return (
-        <section className="py-24 bg-[#0B1120] border-t border-white/5">
+        <section className="py-12 md:py-20 bg-[#0B1120] border-t border-white/5">
             <div className="container-custom">
                 <SectionHeading
                     title="7-Tank Powder Coating Plant"

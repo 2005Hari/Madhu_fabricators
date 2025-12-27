@@ -61,7 +61,7 @@ export function Services() {
     const [selectedService, setSelectedService] = useState<typeof services[0] | null>(null);
 
     return (
-        <section id="services" className="py-24 md:py-32 bg-muted relative overflow-hidden">
+        <section id="services" className="py-12 md:py-20 bg-muted relative overflow-hidden">
             {/* Background Grid Pattern */}
             <div className="absolute inset-0 bg-grid-white opacity-20 pointer-events-none" />
 

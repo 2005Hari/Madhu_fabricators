@@ -18,7 +18,7 @@ const clients = [
 
 export function Clients() {
     return (
-        <section className="py-24 bg-[#020617] border-t border-white/5 overflow-hidden">
+        <section className="py-10 bg-[#020617] border-t border-white/5 overflow-hidden">
             <div className="container-custom text-center">
                 <p className="text-gray-400 font-bold tracking-widest uppercase mb-10 text-sm">Trusted by Industry Leaders</p>
 

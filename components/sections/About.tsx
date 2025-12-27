@@ -14,7 +14,7 @@ const stats = [
 
 export function About() {
     return (
-        <section id="about" className="py-24 md:py-32 bg-[#0B1120]">
+        <section id="about" className="py-12 md:py-20 bg-[#0B1120]">
             <div className="container-custom">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 

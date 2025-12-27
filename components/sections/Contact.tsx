@@ -42,7 +42,7 @@ export function Contact() {
     };
 
     return (
-        <section id="contact" className="py-24 md:py-32 bg-[#020617] relative border-t border-white/5">
+        <section id="contact" className="py-12 md:py-20 bg-[#020617] relative border-t border-white/5">
             {/* Background Gradients */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
                 <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/5 rounded-full blur-3xl opacity-50" />

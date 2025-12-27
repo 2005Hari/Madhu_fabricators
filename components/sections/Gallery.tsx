@@ -14,7 +14,7 @@ const images = [
 
 export function Gallery() {
     return (
-        <section id="gallery" className="py-24 md:py-32 bg-[#020617] border-t border-white/5">
+        <section id="gallery" className="py-12 md:py-20 bg-[#020617] border-t border-white/5">
             <div className="container-custom">
                 <SectionHeading
                     title="Project Gallery"

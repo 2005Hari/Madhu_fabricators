@@ -27,14 +27,14 @@ export function SectionHeading({
     };
 
     return (
-        <div className={cn("flex flex-col mb-12", alignClass[alignment], className)} {...props}>
+        <div className={cn("flex flex-col mb-8", alignClass[alignment], className)} {...props}>
             <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
                 className={cn(
-                    "text-3xl md:text-4xl font-bold tracking-tight mb-4",
+                    "text-2xl md:text-3xl font-bold tracking-tight mb-3",
                     light ? "text-white" : "text-white"
                 )}
             >
@@ -48,7 +48,7 @@ export function SectionHeading({
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.1 }}
                     className={cn(
-                        "text-lg md:text-xl max-w-2xl",
+                        "text-base md:text-lg max-w-xl",
                         light ? "text-white/80" : "text-gray-400"
                     )}
                 >
@@ -58,11 +58,11 @@ export function SectionHeading({
 
             <motion.div
                 initial={{ width: 0 }}
-                whileInView={{ width: "80px" }}
+                whileInView={{ width: "60px" }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className={cn(
-                    "h-1 mt-6 rounded-full",
+                    "h-1 mt-4 rounded-full",
                     light ? "bg-white/50" : "bg-secondary"
                 )}
             />
