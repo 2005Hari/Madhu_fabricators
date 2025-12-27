@@ -1,0 +1,21 @@
+
+> madhu-fabricators@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.1 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 8.6s
+  Running TypeScript ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/4) ...
+Error occurred prerendering page "/". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Attempted to call createMotionComponent() from the server but createMotionComponent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+    at <unknown> (D:\Projects\Madhu_Fabricators\.next\server\chunks\ssr\_86aff388._.js:3:7527)
+    at Object.get (D:\Projects\Madhu_Fabricators\.next\server\chunks\ssr\_86aff388._.js:3:137857)
+    at f2 (D:\Projects\Madhu_Fabricators\.next\server\chunks\ssr\_86aff388._.js:3:145331)
+    at stringify (<anonymous>) {
+  digest: '358917091'
+}
+Export encountered an error on /page: /, exiting the build.
+Γ¿» Next.js build worker exited with code: 1 and signal: null
